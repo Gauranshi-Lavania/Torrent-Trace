@@ -4,7 +4,7 @@
 
 Torrent Trace turns 20 environmental and infrastructure scores into a flood probability, explains *why* the model produced it, and lets you test what an improvement would change. It is built on the Kaggle Playground Series S4E5 dataset, *Regression with a Flood Prediction Dataset*.
 
-> **Live demo:** `<add your Streamlit Community Cloud link here>`
+> **Live demo:** https://torrent-trace.streamlit.app/
 
 ![Dashboard](screenshots/dashboard.png)
 
@@ -57,12 +57,12 @@ Scores are measured on a held-out test split. *(Replace with your own numbers af
 
 | Model | R² | RMSE |
 |---|---|---|
-| Linear Regression | – | – |
-| Ridge Regression | – | – |
-| LightGBM | – | – |
-| XGBoost | – | – |
-| CatBoost | – | – |
-| Weighted Ensemble | – | – |
+| Linear Regression | 0.8450|  0.02007|
+| Ridge Regression |  0.8450 | 0.02007  |
+| LightGBM | 0.8685 |  0.01849 |
+| XGBoost | 0.8685 | 0.01849 |
+| CatBoost |  0.8684 | 0.01850 |
+| Weighted Ensemble | 0.8645 | 0.01877  |
 
 ## Tech stack
 
@@ -140,8 +140,8 @@ Other options: `--sample 300000` (use a subset of rows), `--zip <path>` (custom 
 
 ## Author
 
-**`<Your Name>`** · `<College / Department>` · [LinkedIn](`<your-link>`) · [GitHub](`<your-link>`)
+**`Gauranshi Lavania`** · `IET Lucknow / CSE`  · [GitHub](https://github.com/Gauranshi-Lavania)
 
 ## License
 
-`<MIT / your choice>`. See `LICENSE`.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
